@@ -1,0 +1,22 @@
+{
+  "name": "vdmos_tid_defense",
+  "template_path": "base_template.pptx",
+  "content_layout_catalog_path": "content_layout_catalog.json",
+  "archetypes_catalog_path": "archetypes.json",
+  "primary_color_hex": "4472C4",
+  "text_color_light": "FFFFFF",
+  "text_color_dark": "333333",
+  "default_font_size_pt": 16,
+  "min_font_size_pt": 10,
+  "max_font_size_pt": 44,
+  "default_layout_index": 0,
+  "allow_external_images": true,
+  "allowed_image_extensions": ["png", "jpg", "jpeg", "svg", "gif", "bmp"],
+  "asset_roots": [
+    "E:\\仿真数据处理\\答辩\\PPT制作交付包"
+  ],
+  "require_visual_on_content_slides": false,
+  "require_source_for_data_slides": false,
+  "enforce_template_geometry": false,
+  "enforce_template_layouts": false
+}

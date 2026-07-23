@@ -36,5 +36,37 @@ for si,s in enumerate(prs.slides,1):
         if had_small and sh.height < Inches(.18):
             sh.height=Inches(.18)
 
+# 封面长标题保留 24 pt，并扩大为四行安全区；同步下移副标题。
+cover=prs.slides[0]
+for sh in cover.shapes:
+    if not getattr(sh,"has_text_frame",False): continue
+    if sh.name=="Text 0":
+        sh.height=Inches(1.9)
+        for pgh in sh.text_frame.paragraphs:
+            for run in pgh.runs:
+                if run.text.strip(): run.font.size=Pt(24)
+    elif sh.name=="Text 1": sh.top=Inches(3.02)
+    elif sh.name=="Text 2": sh.top=Inches(3.58)
+
+# 复用原页的眉题、页码和状态徽标属于导航元素，维持 8 pt；科学边界文字保持 10 pt 并扩容。
+reused={11,12,13,14,15,16,17,27,28,29,30,31,32,33,35,36,37,41,42,44,45,46,47,48,50,51,67}
+for si in reused:
+    s=prs.slides[si-1]
+    for sh in s.shapes:
+        if not getattr(sh,"has_text_frame",False) or not sh.text.strip(): continue
+        if sh.name in {"Text 1","Text 2"}:
+            for pgh in sh.text_frame.paragraphs:
+                for run in pgh.runs:
+                    if run.text.strip(): run.font.size=Pt(8)
+        elif sh.name=="Text 7":
+            sh.top=min(sh.top, Inches(5.14))
+            sh.height=Inches(.25)
+            for pgh in sh.text_frame.paragraphs:
+                for run in pgh.runs:
+                    if run.text.strip(): run.font.size=Pt(8)
+        elif sh.name=="Text 8":
+            sh.top=min(sh.top, Inches(5.10))
+            sh.height=Inches(.46)
+
 prs.save(p)
 print('fixed',p)
