@@ -1,0 +1,116 @@
+{
+  "formal_valid": false,
+  "line_rule": "simulation solid; experiment dashed; identical dose colors for transfer curves",
+  "files": [
+    {
+      "path": "data\\S_D00_n3.csv",
+      "bytes": 2749,
+      "sha256": "d4ca2e80bb3124bf59cb8af3361b093a1e93e39837ce757aedd52379055d791e"
+    },
+    {
+      "path": "data\\S_D10_n5.csv",
+      "bytes": 2695,
+      "sha256": "0e61b5c983d7c4bcd0703f0b5b69a71fc91565e9d2760575f840830770cefe85"
+    },
+    {
+      "path": "data\\S_D20_n6.csv",
+      "bytes": 2770,
+      "sha256": "310573492a676b4a94b6ec9cebb5177619524e7c07310a3648e0f5fbe1e7ad71"
+    },
+    {
+      "path": "data\\S_D30_n13.csv",
+      "bytes": 2823,
+      "sha256": "19ed813e494ffda1ebfb3876526180bdb349e8d27086847c50b764d935ca03de"
+    },
+    {
+      "path": "data\\S_D40_n77.csv",
+      "bytes": 2897,
+      "sha256": "f0d078081ee8ce2d3a7be8be5f54ab20e5bc29faadc2264cbe21a60c0060207d"
+    },
+    {
+      "path": "data\\S_D50_n80.csv",
+      "bytes": 2877,
+      "sha256": "816bf2e9a1c1411aa85baec5a5d86fd42ae8ecd7130c13d66f0aeb302c89f183"
+    },
+    {
+      "path": "data\\S_D60_n83.csv",
+      "bytes": 2849,
+      "sha256": "6a50d2ec01e5533d6559418913075db5a14ef1f7cb07bdd78ba33b727d413488"
+    },
+    {
+      "path": "figures\\gm_vs_dose.pdf",
+      "bytes": 19370,
+      "sha256": "d27b9281370ec06dec7a72f35d01e75ffcb3b2a35cda59e797a0ade97d20d544"
+    },
+    {
+      "path": "figures\\gm_vs_dose.png",
+      "bytes": 150602,
+      "sha256": "7e3d0578443737d912d3ceae41ad81ae60ab3319bb00b334d352037c7490eccc"
+    },
+    {
+      "path": "figures\\gm_vs_dose.svg",
+      "bytes": 46080,
+      "sha256": "02c84235f76bb8d6405248f0e3a226d22834af60a3545584d82c813b08e2cea1"
+    },
+    {
+      "path": "figures\\ss_vs_dose.pdf",
+      "bytes": 17688,
+      "sha256": "2c2e68aca793767b113498897ab543c94da74d9404bd010dfe947ffb904dff46"
+    },
+    {
+      "path": "figures\\ss_vs_dose.png",
+      "bytes": 127731,
+      "sha256": "68b221d0b06d03bf5e23ce2d400bb93c0f25ba43ae9d0b2b244ea8888694cfb0"
+    },
+    {
+      "path": "figures\\ss_vs_dose.svg",
+      "bytes": 40435,
+      "sha256": "18ea6584ab2872548cbea65eb9d962512caefd83b9d1a1a12bd679ee80fa6b32"
+    },
+    {
+      "path": "figures\\transfer_linear.pdf",
+      "bytes": 23828,
+      "sha256": "1969830e71fe3f845c6d65f672ac368b9b5dd764d15c38e7dbf680959ed50ebb"
+    },
+    {
+      "path": "figures\\transfer_linear.png",
+      "bytes": 308835,
+      "sha256": "1749b666365249b20cfa833a1a2fb661c8be33dfe92ad89f34ef5d64f18a1472"
+    },
+    {
+      "path": "figures\\transfer_linear.svg",
+      "bytes": 66993,
+      "sha256": "bfa0318a77c3eaf0a905d751d5df6ad59032f809613d58b532c54c9f04c9e5ae"
+    },
+    {
+      "path": "figures\\transfer_semilog.pdf",
+      "bytes": 31426,
+      "sha256": "14b0d22b98e36a732379936afc62af1aae1699e8acfbeacf227cea18e744eb10"
+    },
+    {
+      "path": "figures\\transfer_semilog.png",
+      "bytes": 394410,
+      "sha256": "4ea91585391a531cd1b9e06add44d84f85765051198b8081d65b22d95ee58ff2"
+    },
+    {
+      "path": "figures\\transfer_semilog.svg",
+      "bytes": 86811,
+      "sha256": "f39ac8a53e331e9990ca5e02eb5dc5454e64b11ed4ade4e212d12dc855f031b1"
+    },
+    {
+      "path": "figures\\vth_vs_dose.pdf",
+      "bytes": 18256,
+      "sha256": "741b01d5e32fe63edca39321d67fd8d58f9c4f19b0862682f3f2cd225c340a34"
+    },
+    {
+      "path": "figures\\vth_vs_dose.png",
+      "bytes": 146335,
+      "sha256": "f2b7077dab3826c4b3ef837c7997279f2e33848761f8b0d86c743973c3a79ad5"
+    },
+    {
+      "path": "figures\\vth_vs_dose.svg",
+      "bytes": 42267,
+      "sha256": "dc9dd23708a23af13472ca4bd704923f73397136691a2726365f6355dc6f7772"
+    }
+  ]
+}

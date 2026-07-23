@@ -1,0 +1,11 @@
+{
+  "files": [
+    "field_peak_vs_dose.pdf",
+    "field_peak_vs_dose.png",
+    "field_peak_vs_dose.svg",
+    "field_x_cutline_overlay.pdf",
+    "field_x_cutline_overlay.png",
+    "field_x_cutline_overlay.svg"
+  ],
+  "lineage": "profiles from real VM SVisual Tcl cutlines"
+}

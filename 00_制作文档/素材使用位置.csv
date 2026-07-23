@@ -1,0 +1,44 @@
+页码,素材相对路径,素材类型,使用位置与用途,优先级
+1;10;44;47-50;67,01_原PPT与保留页/S_T_VDMOS_TID_原讲稿版.pptx,PPTX,封面及原有总览和仿真页面的底稿,主底稿
+2,02_背景与结构/ChatGPT Image 2026年7月23日 15_43_15.png,PNG,辐射环境与TID影响因果链主图,主素材
+3,02_背景与结构/ChatGPT Image 2026年7月23日 15_45_34.png,PNG,实验与TCAD作用对照,主素材
+4-5,07_参考文献/Liu 等 - 2008 - Analysis of commercial trench power MOSFETs' responses to ${rm co}^{60}$ irradiation.pdf,PDF,TID机制与沟槽器件文献核对,参考
+4-5,07_参考文献/Wang 等 - 2023 - A comparative study on total ionizing dose effects of 100-V split-gate trench VDMOS and conventional.pdf,PDF,SGT与传统Trench结构比较文献,参考
+4-5;32;42,07_参考文献/Wang 等 - 2024 - Analysis of TID effects on the threshold voltage and breakdown voltage of 100-V split-gate trench VD(1).pdf,PDF,Vth与BV机制及表述边界核对,参考
+附录,07_参考文献/Zhu 等 - 2026 - Influence of Temperature and Gate Bias on the Atmospheric Neutron-Induced SEB Effect in Double-Trenc.pdf,PDF,SEB相关但非TID主线,备选
+6,02_背景与结构/route.png,PNG,实验到TCAD再到证据审计的研究闭环,主素材
+7,02_背景与结构/site_irradiator.jpg; site_room.jpg; site_source.jpg,JPG,实验现场或辐照条件辅助照片,备选
+8,02_背景与结构/T.png,PNG,Trench VDMOS结构图左侧,主素材
+8,02_背景与结构/S.png,PNG,SGT VDMOS结构图右侧,主素材
+10-17,03_实验结果/可编辑图表/transfer_six_device_gallery.png; transfer_S1.svg; transfer_S2.svg; transfer_S3.svg; transfer_T1.svg; transfer_T2.svg; transfer_T3.svg; transfer_metrics_overview.svg,PNG/SVG,六器件转移总览和逐器件可编辑图,优先
+11-17,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_10.png 至 _16.png,PNG,原PPT转移页快照直接保留或核对,原页
+18,03_实验结果/transfer_semilog_S.png; transfer_linear_S.png,PNG,S组半对数与线性转移曲线,主素材
+20,03_实验结果/transfer_semilog_T.png; transfer_linear_T.png,PNG,T组半对数与线性转移曲线,主素材
+22,03_实验结果/gm_change.png,PNG,S/T gm变化比较,主素材
+23,03_实验结果/subthreshold_swing.png,PNG,S/T SS变化比较,主素材
+24,03_实验结果/threshold_shift.png; threshold_voltage.png,PNG,ΔVth和Vth绝对值比较,主素材
+27-33,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_18.png 至 _24.png,PNG,六器件输出总览与逐器件输出页,原页
+27-35,03_实验结果/可编辑图表/output_six_device_gallery.png; output_S1.svg; output_S2.svg; output_S3.svg; output_T1.svg; output_T2.svg; output_T3.svg; output_metrics_overview.svg,PNG/SVG,输出曲线总览与可编辑逐器件图,优先
+34;39;52,03_实验结果/output_semilog_S.png,PNG,S组尖峰复扫和S/T输出对照左图,主素材
+35,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_25.png,PNG,S/T输出指标汇总原页,原页
+36,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_26.png,PNG,13条S组复扫统计原页,原页
+36,03_实验结果/可编辑图表/recovery_13_pairs.svg,SVG,13条复扫配对可编辑重绘,优先
+37,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_27.png,PNG,S3 60krad首扫与复扫案例,主素材
+39;52,03_实验结果/output_semilog_T.png,PNG,T组输出及S/T对照右图,主素材
+41,04_T器件仿真/simulation/structure_mesh.png,PNG,T器件结构和网格,主素材
+42,04_T器件仿真/dose_trap_mapping.svg,SVG,Dose到Not/Nit映射,主素材
+44,04_T器件仿真/comparison/comparison_transfer_semilog_T.pdf,PDF,T七剂量实验仿真转移对比,主素材
+45,04_T器件仿真/t_simulation_metric_compare.svg,SVG,T的ΔVth与gm指标对比,主素材
+47-50,04_T器件仿真/comparison/comparison_output_semilog_T.pdf; comparison_id30_T.pdf; comparison_high_voltage_context_T.pdf,PDF,T输出和高压限定比较,主素材
+51-52,04_T器件仿真/simulation/electric_field_0krad.png; electric_field_60krad.png,PNG,T的0和60krad终态电场,主素材
+54,05_S器件仿真/七剂量转移/figures/transfer_semilog.svg; transfer_linear.svg,SVG,S七剂量实验仿真转移对比,主素材
+55,05_S器件仿真/七剂量转移/figures/vth_vs_dose.svg; gm_vs_dose.svg,SVG,S的Vth与gm指标对比,主素材
+56,05_S器件仿真/七剂量转移/figures/ss_vs_dose.svg,SVG,S的SS比较和有效窗口限制,主素材
+57,05_S器件仿真/低压电场/figures/field_x_cutline_overlay.svg; field_peak_vs_dose.svg,SVG,S低漏压电场切线及峰值变化,主素材
+59,05_S器件仿真/七剂量转移/figures/svisual_transfer_semilog_0to60K_clean.png,PNG,SVisual导出图像证据,辅助
+附录,05_S器件仿真/历史参数探索/,EMF/PDF/PNG,S历史参数扫描和模型筛选过程,备选
+62-66,06_AI辅助流程/流程依据/,MD/JSON/SH/PS1,状态机人工审批单核租约监控和证据规则,自绘依据
+68,06_AI辅助流程/AI操作中图2.png; AI操作中图像1.png; 虚拟机工程.png,PNG,AI分析监控和虚拟机工程三图并列,主素材
+全篇,08_报告与证据/ST_TID_综合成果报告.md; report_manifest.json,MD/JSON,实验数字条件结论和来源核对,证据
+41-53,08_报告与证据/T_device_TID_simulation_report.md; T仿真交付manifest.json,MD/JSON,T仿真数字与边界核对,证据
+54-59,08_报告与证据/S仿真manifest.json; S仿真qa.json,JSON,S仿真映射QA和结论核对,证据

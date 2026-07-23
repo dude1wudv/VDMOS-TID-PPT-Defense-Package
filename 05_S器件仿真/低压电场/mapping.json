@@ -1,0 +1,14 @@
+{
+  "mapping_type": "user_provided_GUI_order",
+  "formal_valid": false,
+  "labels": {
+    "0K": 3,
+    "10K": 5,
+    "20K": 6,
+    "30K": 13,
+    "40K": 77,
+    "50K": 80,
+    "60K": 83
+  },
+  "cutline": "fixed Y=-6.0 um, along X; 0K candidate scan y=-6..2 um in .05 um steps, 161 valid candidate cutlines; selected highest 0K cutline peak"
+}

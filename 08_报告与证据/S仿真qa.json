@@ -1,0 +1,123 @@
+{
+  "schema_version": "sgt_history_deliverable_qa/v1",
+  "status": "PASS_EXPLORATORY",
+  "checks": {
+    "sgt_hash_preserved": true,
+    "trench_hash_preserved": true,
+    "gsummary_counts_verified": true,
+    "archive_counts_verified": true,
+    "valid_exploratory_count_8": true,
+    "n72_partial_no_bv_curve": true,
+    "all_history_formal_false": true,
+    "measured_filter_S_scan1": true,
+    "measured_devices_S1_S3": true,
+    "no_T_targets_read": true,
+    "not_nit_not_mapped_to_dose": true,
+    "no_output_idvd_figure_created": true,
+    "real_vm_svisual_records_8": true,
+    "real_workbench_screenshot": true,
+    "no_new_sdevice_simulation": true
+  },
+  "figures": [
+    "deliverables/06_simulation/S/03_figures/S_measured_SGT_transfer_overlay.png",
+    "deliverables/06_simulation/S/03_figures/S_measured_SGT_transfer_overlay.pdf",
+    "deliverables/06_simulation/S/03_figures/SGT_historical_parameter_scan.png",
+    "deliverables/06_simulation/S/03_figures/SGT_historical_parameter_scan.pdf",
+    "deliverables/06_simulation/S/03_figures/S_transfer_Vth_gm_SS.png",
+    "deliverables/06_simulation/S/03_figures/S_transfer_Vth_gm_SS.pdf"
+  ],
+  "origin_status": "PASS_EXPLORATORY",
+  "visual_review": "AUTOMATED_DIMENSION_CHECK_PASS; MANUAL_CONTENT_REVIEW_PENDING",
+  "final_checks": {
+    "all_primary_qa_checks": true,
+    "origin_pass": true,
+    "valid_exploratory_8": true,
+    "partial_1": true,
+    "n72_partial": true,
+    "svisual_records_8": true,
+    "all_svisual_formal_false": true,
+    "matrix_14": true,
+    "matrix_no_runs": true,
+    "gap_plan_fail_closed": true,
+    "sgt_source_preserved": true,
+    "trench_source_preserved": true,
+    "png_exports_nonempty": true,
+    "no_output_or_idvd_figure": true
+  },
+  "origin_exports": [
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.png",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.pdf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.emf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.png",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.pdf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.emf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.png",
+    "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.pdf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.emf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.png",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.pdf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.emf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.png",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.pdf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.emf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.png",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.pdf",
+    "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.emf"
+  ],
+  "image_checks": [
+    {
+      "path": "deliverables/06_simulation/S/03_figures/S_measured_SGT_transfer_overlay.png",
+      "width": 4170,
+      "height": 1602,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/S_transfer_Vth_gm_SS.png",
+      "width": 4170,
+      "height": 1426,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/SGT_historical_parameter_scan.png",
+      "width": 3870,
+      "height": 1543,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.png",
+      "width": 5196,
+      "height": 4074,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.png",
+      "width": 5196,
+      "height": 3616,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.png",
+      "width": 5196,
+      "height": 3614,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.png",
+      "width": 5196,
+      "height": 3968,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.png",
+      "width": 5196,
+      "height": 3923,
+      "nonempty": true
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.png",
+      "width": 5196,
+      "height": 3666,
+      "nonempty": true
+    }
+  ]
+}

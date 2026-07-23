@@ -1,0 +1,7 @@
+{
+  "tool": "Sentaurus Visual W-2024.09 Tcl batch",
+  "operation": "loaded seven existing terminal TDRs; for each fixed-Y horizontal cutline read ElectricField-X/ElectricField-Y and calculated sqrt(Ex*Ex+Ey*Ey) in Tcl",
+  "cutline": {"orientation": "fixed Y, along X", "cut_y_um": -6.0, "candidate_y_scan_um": [-6.0, 2.0, 0.05], "valid_candidates": 161, "zeroK_cutline_peak_v_per_cm": 965438.397873},
+  "formal_valid": false,
+  "boundary": "Existing transfer endpoint, low drain bias field only; not a BV scan, breakdown field, or BV quantitative validation."
+}

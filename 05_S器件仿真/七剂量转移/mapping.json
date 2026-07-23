@@ -1,0 +1,15 @@
+{
+  "mapping_type": "user_provided_gui_order_fixed",
+  "unit": "krad(Si)",
+  "formal_valid": false,
+  "limitation": "GUI manual SDevice execution lacks repository atomic lease and affinity evidence; analysis and figure material only, not formal compliant curves.",
+  "dose_to_node": {
+    "0": 3,
+    "10": 5,
+    "20": 6,
+    "30": 13,
+    "40": 77,
+    "50": 80,
+    "60": 83
+  }
+}

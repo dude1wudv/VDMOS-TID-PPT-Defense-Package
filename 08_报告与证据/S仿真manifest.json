@@ -1,0 +1,283 @@
+{
+  "schema_version": "sgt_history_delivery_manifest/v1",
+  "device_group": "S",
+  "status": "PASS_EXPLORATORY_FORMAL_FALSE",
+  "formal_valid": false,
+  "method_provenance": "Derived from E:/VDMOS_TID_Research repository guidance, sentaurus-vm-runner, atomic one-core scheduler, and VM notes.",
+  "summary": {
+    "valid_exploratory_transfer": 8,
+    "partial_nodes": 1,
+    "historical_output": 0,
+    "gap_matrix_curves": 14,
+    "origin_graphs": 6,
+    "origin_exports": 18
+  },
+  "checks": {
+    "all_primary_qa_checks": true,
+    "origin_pass": true,
+    "valid_exploratory_8": true,
+    "partial_1": true,
+    "n72_partial": true,
+    "svisual_records_8": true,
+    "all_svisual_formal_false": true,
+    "matrix_14": true,
+    "matrix_no_runs": true,
+    "gap_plan_fail_closed": true,
+    "sgt_source_preserved": true,
+    "trench_source_preserved": true,
+    "png_exports_nonempty": true,
+    "no_output_or_idvd_figure": true
+  },
+  "files": [
+    {
+      "path": "deliverables/06_simulation/S/01_provenance/import_manifest.json",
+      "size_bytes": 2528,
+      "sha256": "739f6d7534c7e0988de76d68dc2a9a464595257006e5683d8de1558ea084296c"
+    },
+    {
+      "path": "deliverables/06_simulation/S/01_provenance/source_integrity_and_vm.json",
+      "size_bytes": 2443,
+      "sha256": "24dfe68b720a5dce8cc284292b9d9fc057efc218d28fed41c263eaa3308d5c9a"
+    },
+    {
+      "path": "deliverables/06_simulation/S/01_provenance/workbench_gui_status.json",
+      "size_bytes": 506,
+      "sha256": "6f0e7b636ba33fa97e6b6ba2c5b43ce452092c463f86cae7e2704942f2cdac22"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/curve_manifest.csv",
+      "size_bytes": 3025,
+      "sha256": "a732501e0c6b189135cc697eaafa3598dc31283a8939b9a3255b7b863f68ba29"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/historical_audit.json",
+      "size_bytes": 7643,
+      "sha256": "bc51212f67568f0188600902296ae32cdc11e7814d773c2621e4f04b18a2ff4b"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/measured_S_primary_transfer.csv",
+      "size_bytes": 1205951,
+      "sha256": "3026522882f5e26007e874f5446e0209bb75998e98168798ed1ac67fd9e92951"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/node_audit.csv",
+      "size_bytes": 1599,
+      "sha256": "341b5179cb7f8bf438bebaf68fdedccdcdebc963fb2d8e5297b3de8c20aa9c94"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n13_transfer.csv",
+      "size_bytes": 3083,
+      "sha256": "fa3338d9d9605af3e97b504b9bf92316202162353d42d0da7ad4bf4a905638b1"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n16_transfer.csv",
+      "size_bytes": 3154,
+      "sha256": "0f1bde60081e18343b18e158a3446a9614b44d0ff27139ae059e827592b1dcc7"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n27_transfer.csv",
+      "size_bytes": 3174,
+      "sha256": "7d2924ea4957cd6e918475954cbe7c2941294be78f8ee8f025e1f4b795efce22"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n2_transfer.csv",
+      "size_bytes": 3032,
+      "sha256": "4b0db8db31f5b64d39136d9a6dea84a3716f20aac4c0e4e05e63efbee8f9f101"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n38_transfer.csv",
+      "size_bytes": 3083,
+      "sha256": "d8b11da70fe19befdaf51096c400493338b4d98b271e4fa1050283e5f6c3983a"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n3_transfer.csv",
+      "size_bytes": 3061,
+      "sha256": "2b71885ead6d9fc51dfca368d57d9a6f3256c5deae562fefb18000ec6b14634d"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n5_transfer.csv",
+      "size_bytes": 2950,
+      "sha256": "62279f92df7e00f7477ec710795942e484dd883806e2a3742e50719becc829ce"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/sgt_n6_transfer.csv",
+      "size_bytes": 3030,
+      "sha256": "8df8b85c8aa67c53bf2f4019b2cf86f93835f4096ab8ae176003f4deecd2bcc9"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/svisual_extraction_manifest.json",
+      "size_bytes": 16592,
+      "sha256": "0c71edcd8262537450f8763eeb74ae36993c865b851ad272e53293070550b1ba"
+    },
+    {
+      "path": "deliverables/06_simulation/S/02_data/exploratory/transfer_metrics.csv",
+      "size_bytes": 7425,
+      "sha256": "b838bca53f76488482b855cb3e79fb5e89cd11e1f67033434ea7701e7a84697b"
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/S_measured_SGT_transfer_overlay.pdf",
+      "size_bytes": 34158,
+      "sha256": "db04f1e459112f60b885b564ea0f9aa7371c08cd66c194d751cfcdcb87c7a54d"
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/S_measured_SGT_transfer_overlay.png",
+      "size_bytes": 531812,
+      "sha256": "e5dee1c472a35809a9fea089db7fb0cf0bfecb2abdf7ef25d00bbff874fc2f5d"
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/S_transfer_Vth_gm_SS.pdf",
+      "size_bytes": 20413,
+      "sha256": "f8fb1fb8f8dc9c48e39bc4669ad2cd22e7e3e974aa9c792384e2634848cd71b0"
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/S_transfer_Vth_gm_SS.png",
+      "size_bytes": 294994,
+      "sha256": "2281640a6b472b9f875771d4496ffef808aa54a3158ff7c2f7fea1b89f96c11f"
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/SGT_historical_parameter_scan.pdf",
+      "size_bytes": 26900,
+      "sha256": "ef32b101c5bd554427da1b5bd798d504c98b29c40b84d1be3edcbd8c42bdab35"
+    },
+    {
+      "path": "deliverables/06_simulation/S/03_figures/SGT_historical_parameter_scan.png",
+      "size_bytes": 628827,
+      "sha256": "bb4193e334fe6efb6f55a982512df57468f5ef4cb382968a7d36bee3ef1cd5ad"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.emf",
+      "size_bytes": 12064,
+      "sha256": "b076310ed26a994c6c622c5c6d778b66ec01ba81276a5e79ad2c18a544ab8ad9"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.pdf",
+      "size_bytes": 21403,
+      "sha256": "2f85cd6d19034c452bea35713356ef15846520075a72f281124cd1f50b276493"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_gm_max_s.png",
+      "size_bytes": 133146,
+      "sha256": "aa1443c0729a9c8941b94174de83be301bb2a4728ca11ae21b88724549d0c38a"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.emf",
+      "size_bytes": 61404,
+      "sha256": "9746f1e203583e9e7faed75150fc540a06d0187f35b4c6855c5bd05661ad03a4"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.pdf",
+      "size_bytes": 578043,
+      "sha256": "3f1553ecf6e2ebf9f0a1a903d51c4c8317b060237a9de48daa5f8c7a430f39be"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_linear.png",
+      "size_bytes": 174363,
+      "sha256": "b5b4c0f787035d6d44340b8976547cac60e616620cdf29845aa8411be27b7c12"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.emf",
+      "size_bytes": 83156,
+      "sha256": "bf420fda12cd3c8dc998783e0bb7ebcb2a92737420a3edf873addf857397b69e"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.pdf",
+      "size_bytes": 586369,
+      "sha256": "26ff106b1cb09f7cc1702ac841436bf2a10a9beea7beaf03d21b5e648f1508cd"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_SGT_overlay_semilog.png",
+      "size_bytes": 250936,
+      "sha256": "d704ea402606206b5431e2091b533338ac31fed211fa41e5e95e91ba7e63b073"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.emf",
+      "size_bytes": 12408,
+      "sha256": "7c8f804b3f7205ee82b4a60a340f57229a03a35181550f20b14c24ed8e640380"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.pdf",
+      "size_bytes": 20375,
+      "sha256": "7ffed0eb73ff9e1d39fff74713cdba1946ae365efc5bc1e53eaa92a6df56da3f"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_ss_mv_dec.png",
+      "size_bytes": 143632,
+      "sha256": "7123ca01a12fbd3f408fd980b74df47076cf5a4229f3f6a8f24da894410981b5"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.emf",
+      "size_bytes": 11928,
+      "sha256": "4d8630ea15668dbe573492fbf889a3614b0798144c1c10d8eeccec1a285cd0d2"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.pdf",
+      "size_bytes": 20903,
+      "sha256": "2d21565b3e03e11288e517fc40c8420f85b6d75f804e6381d6c9a13eeef577f7"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_S_vth_tangent_v.png",
+      "size_bytes": 122738,
+      "sha256": "851d253d6521ff00d485a36127fc224929500853687ee36868038c52a6f77c51"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.emf",
+      "size_bytes": 41780,
+      "sha256": "bd2398b6f1e2542f077d2ad26d034b8d6250d7832771debbd3a7dbb834ce126a"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.pdf",
+      "size_bytes": 574824,
+      "sha256": "99c29b2d06c645b62d882d96d35d19f1824538e9e7292f9e92704adf100b500e"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/figures/origin_SGT_parameter_scan.png",
+      "size_bytes": 160601,
+      "sha256": "2dbc8cf3064011309ca6ac01b041a1cc04a3cfb0c5dc145c9e001352ea453b40"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/origin_curve_manifest.csv",
+      "size_bytes": 7297,
+      "sha256": "4c0729565f49ede7c3666b59dbffa8167688bd8d90cbb8dc3f1f323e0069a94b"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/origin_overlay_manifest.json",
+      "size_bytes": 3123,
+      "sha256": "119374b2ba04904f1aa3ac150b36698c940a01ca8af9b23f9a0a7416ca71db7f"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/origin_qa.json",
+      "size_bytes": 1951,
+      "sha256": "4dff935c158e9fa6241934bc5c110cc4a23779255e373489038d038489314a6a"
+    },
+    {
+      "path": "deliverables/06_simulation/S/04_origin/S_SGT_historical_exploratory.opju",
+      "size_bytes": 948284,
+      "sha256": "bde7d64687edffc8714aed86e98fa1e8f3f1aededd730ef09ae31016e3322209"
+    },
+    {
+      "path": "deliverables/06_simulation/S/05_gap_plan/gap_plan.json",
+      "size_bytes": 12736,
+      "sha256": "72d7ac662c5d1a06c5f4e4a1bfa26c2d284d28a9786aa0da2194c0ce91f03d24"
+    },
+    {
+      "path": "deliverables/06_simulation/S/05_gap_plan/gap_plan.md",
+      "size_bytes": 1138,
+      "sha256": "b5cdb5ba9ed04c8563d3eb510ac9da42100133d132b53a2e79a6920399da8c28"
+    },
+    {
+      "path": "deliverables/06_simulation/S/05_gap_plan/s_adapter_draft.json",
+      "size_bytes": 6075,
+      "sha256": "7817fcc041fbdb89d9688aa06ef01ff1995c14b0d9a147211fbe6e80969ae3a4"
+    },
+    {
+      "path": "deliverables/06_simulation/S/05_gap_plan/seven_dose_transfer_output_matrix.csv",
+      "size_bytes": 4940,
+      "sha256": "8e5418017bfa0a96414022c6b81bb1d465a9fb61bcd8391298202ef7b86653a9"
+    },
+    {
+      "path": "deliverables/06_simulation/S/qa.json",
+      "size_bytes": 4916,
+      "sha256": "7d4a1d766ae60067f52f7e20ff1bae8a4c2e8a3503fa9d4374b29fd8c708fc90"
+    }
+  ]
+}

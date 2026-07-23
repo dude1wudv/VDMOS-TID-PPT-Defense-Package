@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "formal_valid": false,
+  "same_cut_y": true,
+  "profiles": 7,
+  "all_samples_ge_2": true,
+  "finite": true,
+  "no_sdevice_started": true,
+  "source_gzp_sha256": "5524b0f5dd661a059173b403c0f469dc24f16da9bab0e3f7c7ac1319761a5b4b",
+  "limitation": "Transfer-end VDS~0.1 V/VGS~5 V fields, not BV or breakdown fields."
+}

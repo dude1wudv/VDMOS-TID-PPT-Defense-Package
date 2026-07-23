@@ -1,0 +1,356 @@
+{
+  "schema_version": "st_tid_integrated_report_manifest/v1",
+  "title": "^60Co γ 射线总剂量辐照下 S/T 组器件电学特性实验与 T 器件 Sentaurus 仿真研究",
+  "generated_date": "2026-07-23",
+  "write_scope": "E:\\仿真数据处理\\report\\ST_TID_综合成果报告",
+  "method_provenance": {
+    "root": "E:\\VDMOS_TID_Research",
+    "description": "TCAD workflow, VM operation and fail-closed atomic one-core scheduling derived from repository guidance, sentaurus-vm-runner, parallel-core scheduler and VM notes.",
+    "policy": "sdevice --threads 1 through atomic lease; serial dependency chains; preserve failures. No new TCAD run was executed for this report build."
+  },
+  "evidence_levels": {
+    "SUPPORTED": "formal data/evidence directly supports claim",
+    "QUALIFIED": "usable with stated limitation",
+    "BLOCKED": "comparison or positive claim prohibited",
+    "NOT_APPLICABLE": "outside T-only campaign"
+  },
+  "critical_boundaries": [
+    "Seven-dose calibration is not blind prediction.",
+    "D30: QUALIFIED_PARTIAL, 15.6-30 V, 17 points.",
+    "D40: 0.003-30 V, 163 points, six retained negative points.",
+    "Simulation V@1uA is BLOCKED; IIC and Id@30V are not substitutes.",
+    "S-group simulation and stress-recovery simulation are not applicable to the T-only campaign."
+  ],
+  "sources": [
+    {
+      "path": "E:\\仿真数据处理\\analysis_config.json",
+      "sha256": "8bb14e81f58958ff6ed4fa4777ea625307656b86d79b2f0dbf9358d82a0b6de5",
+      "size_bytes": 877,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\02_data\\transfer_summary.csv",
+      "sha256": "a146af1134040c8771396175f27831131e6a5df603df727f149051b10d838e64",
+      "size_bytes": 8562,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\02_data\\output_summary.csv",
+      "sha256": "42b24ad5ee8a8bbf3f664bebca6bf5830de8f42843d6e4c869311dd00aac0808",
+      "size_bytes": 10106,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\02_data\\transfer_parameters.csv",
+      "sha256": "29ab89234d77f75644d73cd22c789483cd5a4472f500c956d1e102ba716f9e1a",
+      "size_bytes": 11492,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\02_data\\output_parameters.csv",
+      "sha256": "49e3d4bd29e9b277a0df67efe8e4059623a34c6bce1e0a8f07341d55b3bb351d",
+      "size_bytes": 16865,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\02_data\\recovery_parameters.csv",
+      "sha256": "96e62f408456dc77b020678cbd64ee189b19775253175597d2f209cd778e6e4c",
+      "size_bytes": 6860,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\05_manifest\\data_quality_report.md",
+      "sha256": "5ca90f56112ebdc02d37707dc46446f679a112c492041aabba23d5ec55ef2c5b",
+      "size_bytes": 1441,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\05_manifest\\source_manifest.csv",
+      "sha256": "591e816e40a9aee72d041eafff7294b64f469eee7dcd3d32cad80e4139d7f937",
+      "size_bytes": 5137,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\06_simulation\\02_data\\fit_error_table.csv",
+      "sha256": "d1f8768230903e50281779c50e478adb0692ddfbe69c8669d171b5304d1af13f",
+      "size_bytes": 4249,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\06_simulation\\02_data\\simulation_metrics.csv",
+      "sha256": "8023df70c3a17c18f68a6015632b82f986f5b8cd33f6b9576b4c50caaebe5098",
+      "size_bytes": 4624,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\06_simulation\\01_provenance\\input_gzp_sha256.json",
+      "sha256": "9b1a76adf2ed4c7f21cb39fed5a96220bcea2c282b52d4f0ec68958102618669",
+      "size_bytes": 522,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\06_simulation\\01_provenance\\method_sources.json",
+      "sha256": "11f1e116673a551275deaeff48c59f71f765044373e598157c2f27bb4b64bf2f",
+      "size_bytes": 1644,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\06_simulation\\01_provenance\\current_output_provenance.json",
+      "sha256": "cedc48a545f46852586fd8c1b717e9eece72309de59fdb4c02ffe670e9e48a13",
+      "size_bytes": 3160,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\evidence_map.json",
+      "sha256": "7f4ea8043cfbc22566cdfeeffc72eabe30ce768b3e5e1c81c59617bd4a404759",
+      "size_bytes": 5130,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\07_presentation\\素材\\新版PPT素材库_20260722\\05_文献与实验现场\\引用与清单\\文献清单.csv",
+      "sha256": "01aa145284e7ccb3b6c9586f43d9445a7f3518d680fc7984ed5e21b5552ad2cc",
+      "size_bytes": 4976,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\deliverables\\07_presentation\\素材\\新版PPT素材库_20260722\\05_文献与实验现场\\Wang2024证据\\source_manifest.json",
+      "sha256": "8648c6720bc56659502107c918a2b9246285392150ebe661f73c05be7f5d3557",
+      "size_bytes": 8480,
+      "evidence_level": "SUPPORTED"
+    },
+    {
+      "path": "E:\\仿真数据处理\\Trench VDMOS.gzp",
+      "sha256": "4d09d17b88e9cb0fd0783875f9ec3446795d8b6bd3ba3b136d1bacb73da368bf",
+      "size_bytes": 11316473,
+      "evidence_level": "SUPPORTED"
+    }
+  ],
+  "assets": [
+    {
+      "report_path": "assets/route.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\07_presentation\\素材\\新版PPT素材库_20260722\\05_文献与实验现场\\背景与机制图\\03_本项目研究闭环_原创.png",
+      "source_sha256": "c86280de7d4754dc6723c45e6bf7e2c9ae0ee504e766943a6224bbc66b6b8b4b",
+      "copy_sha256": "c86280de7d4754dc6723c45e6bf7e2c9ae0ee504e766943a6224bbc66b6b8b4b"
+    },
+    {
+      "report_path": "assets/site_irradiator.jpg",
+      "source_path": "E:\\仿真数据处理\\deliverables\\07_presentation\\素材\\新版PPT素材库_20260722\\05_文献与实验现场\\现场照片\\辐照台.jpg",
+      "source_sha256": "29156f31d8a94eda2e7729ccaf8cd566cf97fa5a1dd470480ed7055dbb13110a",
+      "copy_sha256": "29156f31d8a94eda2e7729ccaf8cd566cf97fa5a1dd470480ed7055dbb13110a"
+    },
+    {
+      "report_path": "assets/site_room.jpg",
+      "source_path": "E:\\仿真数据处理\\deliverables\\07_presentation\\素材\\新版PPT素材库_20260722\\05_文献与实验现场\\现场照片\\辐照室外面.jpg",
+      "source_sha256": "f9acecc8cfc97f263b4cb2c2c0ccca4e4738da64b7dd4d25d7ce810727935c8e",
+      "copy_sha256": "f9acecc8cfc97f263b4cb2c2c0ccca4e4738da64b7dd4d25d7ce810727935c8e"
+    },
+    {
+      "report_path": "assets/site_source.jpg",
+      "source_path": "E:\\仿真数据处理\\deliverables\\07_presentation\\素材\\新版PPT素材库_20260722\\05_文献与实验现场\\现场照片\\重水和内部钴源.jpg",
+      "source_sha256": "610ff9274acf924e11246cbb31dcdccc4130db879741aa4ae1d83800379f6359",
+      "copy_sha256": "610ff9274acf924e11246cbb31dcdccc4130db879741aa4ae1d83800379f6359"
+    },
+    {
+      "report_path": "assets/transfer_linear_S.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\transfer_linear_S.png",
+      "source_sha256": "4c0ad0c37ad35b35c4d1284842fa6480c98df7b387893c74bcced9f7f0fd6082",
+      "copy_sha256": "4c0ad0c37ad35b35c4d1284842fa6480c98df7b387893c74bcced9f7f0fd6082"
+    },
+    {
+      "report_path": "assets/transfer_semilog_S.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\transfer_semilog_S.png",
+      "source_sha256": "6fe00d180d7655e7b9f854d56916b29d6f0d44db627982f68f571aa264d20654",
+      "copy_sha256": "6fe00d180d7655e7b9f854d56916b29d6f0d44db627982f68f571aa264d20654"
+    },
+    {
+      "report_path": "assets/output_semilog_S.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\output_semilog_S.png",
+      "source_sha256": "4cd8f1dfee27b87b0d17eeb8f0387e1cad0e7ec54d627eb8a46e073aff4c54a8",
+      "copy_sha256": "4cd8f1dfee27b87b0d17eeb8f0387e1cad0e7ec54d627eb8a46e073aff4c54a8"
+    },
+    {
+      "report_path": "assets/transfer_linear_T.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\transfer_linear_T.png",
+      "source_sha256": "77569daf922408e71f04d6e5c1841dc556a1c97dbff372c3d44df839a873fb4d",
+      "copy_sha256": "77569daf922408e71f04d6e5c1841dc556a1c97dbff372c3d44df839a873fb4d"
+    },
+    {
+      "report_path": "assets/transfer_semilog_T.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\transfer_semilog_T.png",
+      "source_sha256": "02ff90011bbfb19e7204c71cad56e35aaa9885d89e2cb51007f0aaae660bfaa9",
+      "copy_sha256": "02ff90011bbfb19e7204c71cad56e35aaa9885d89e2cb51007f0aaae660bfaa9"
+    },
+    {
+      "report_path": "assets/output_semilog_T.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\output_semilog_T.png",
+      "source_sha256": "f4c418a8353a29218265333247c3237f20b375edb00fd8592e6c30728d4c5317",
+      "copy_sha256": "f4c418a8353a29218265333247c3237f20b375edb00fd8592e6c30728d4c5317"
+    },
+    {
+      "report_path": "assets/threshold_shift.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\threshold_shift.png",
+      "source_sha256": "c21f61f7abc14a715b1007c91e8f8d88a0b9d98d11c4ed0d905b14294b904967",
+      "copy_sha256": "c21f61f7abc14a715b1007c91e8f8d88a0b9d98d11c4ed0d905b14294b904967"
+    },
+    {
+      "report_path": "assets/gm_change.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\gm_change.png",
+      "source_sha256": "98e74e3f7b08475af3d3ef83b64e24f9545e046f876c72a49931567bc4e9d9cb",
+      "copy_sha256": "98e74e3f7b08475af3d3ef83b64e24f9545e046f876c72a49931567bc4e9d9cb"
+    },
+    {
+      "report_path": "assets/subthreshold_swing.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\subthreshold_swing.png",
+      "source_sha256": "b9f3e50cf1c75143d615ecfcfcec58fed8204526800795789a7f27ec4bbaa3da",
+      "copy_sha256": "b9f3e50cf1c75143d615ecfcfcec58fed8204526800795789a7f27ec4bbaa3da"
+    },
+    {
+      "report_path": "assets/output_current_30v.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\output_current_30v.png",
+      "source_sha256": "e2dc11cccfc208a0260a28078503b86e48cfb3c0365d0186f944e77c40b6a041",
+      "copy_sha256": "e2dc11cccfc208a0260a28078503b86e48cfb3c0365d0186f944e77c40b6a041"
+    },
+    {
+      "report_path": "assets/voltage_at_1ua.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\voltage_at_1ua.png",
+      "source_sha256": "db359c96f29b22d6494ed0b224dfa82fd91d4853fafe4b509fa078b2696f9667",
+      "copy_sha256": "db359c96f29b22d6494ed0b224dfa82fd91d4853fafe4b509fa078b2696f9667"
+    },
+    {
+      "report_path": "assets/stress_recovery_30v.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\03_figures\\png\\stress_recovery_30v.png",
+      "source_sha256": "bca9f7f9c5dd24e5d2f0824bc84857d06bce8e826fdadea8f7fb0b9e1695593e",
+      "copy_sha256": "bca9f7f9c5dd24e5d2f0824bc84857d06bce8e826fdadea8f7fb0b9e1695593e"
+    },
+    {
+      "report_path": "assets/sim_structure_mesh.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\simulation\\structure_mesh.png",
+      "source_sha256": "a61acb7b154516f381b70b56ee0e4df770b5f6154139114b48d8a1fbcc5691c5",
+      "copy_sha256": "a61acb7b154516f381b70b56ee0e4df770b5f6154139114b48d8a1fbcc5691c5"
+    },
+    {
+      "report_path": "assets/sim_transfer_semilog.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\comparison\\comparison_transfer_semilog_T.png",
+      "source_sha256": "585c738d6f9a377b8d0dca53e0fc3a66514bca9b9e7fa98994d2f44834fa4e71",
+      "copy_sha256": "585c738d6f9a377b8d0dca53e0fc3a66514bca9b9e7fa98994d2f44834fa4e71"
+    },
+    {
+      "report_path": "assets/sim_transfer_metrics.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\comparison\\comparison_transfer_metrics_T.png",
+      "source_sha256": "dc570fb6f323a9fb18a9852c434357d47156ef7cfd9bb9f57f4dde91b64fcde2",
+      "copy_sha256": "dc570fb6f323a9fb18a9852c434357d47156ef7cfd9bb9f57f4dde91b64fcde2"
+    },
+    {
+      "report_path": "assets/sim_output_semilog.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\comparison\\comparison_output_semilog_T.png",
+      "source_sha256": "f0642d72ac5cedf8fb1799e26b8ef6c2e0fe2b5b7405907fa399dfbb6a94bd6b",
+      "copy_sha256": "f0642d72ac5cedf8fb1799e26b8ef6c2e0fe2b5b7405907fa399dfbb6a94bd6b"
+    },
+    {
+      "report_path": "assets/sim_id30.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\comparison\\comparison_id30_T.png",
+      "source_sha256": "81ba9b78c6c58e6717671e392867cef96f6ef8cbaf7b9762592e2cc91d332677",
+      "copy_sha256": "81ba9b78c6c58e6717671e392867cef96f6ef8cbaf7b9762592e2cc91d332677"
+    },
+    {
+      "report_path": "assets/sim_high_voltage_context.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\comparison\\comparison_high_voltage_context_T.png",
+      "source_sha256": "e028e7389e4ad0cc7515b0be998694d4b4b5948067fec9d3b6279c77f5013d38",
+      "copy_sha256": "e028e7389e4ad0cc7515b0be998694d4b4b5948067fec9d3b6279c77f5013d38"
+    },
+    {
+      "report_path": "assets/sim_field_0.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\simulation\\electric_field_0krad.png",
+      "source_sha256": "c79a4812566bb327c4255d91320c6c2003dda2f9c301ac538ea4852ceb234f2a",
+      "copy_sha256": "c79a4812566bb327c4255d91320c6c2003dda2f9c301ac538ea4852ceb234f2a"
+    },
+    {
+      "report_path": "assets/sim_field_60.png",
+      "source_path": "E:\\仿真数据处理\\deliverables\\06_simulation\\06_report_materials\\figures_T\\simulation\\electric_field_60krad.png",
+      "source_sha256": "0fb195488e3a47472a9f4dea11b412fb8acee1825666a65f9cab8b78c2d1387f",
+      "copy_sha256": "0fb195488e3a47472a9f4dea11b412fb8acee1825666a65f9cab8b78c2d1387f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "ST_TID_综合成果报告.md",
+      "sha256": "444e1da8d77ab334a4ba53dd8044259593e6ab83583c6432c74236f9d5559f2c",
+      "size_bytes": 45383
+    },
+    {
+      "path": "ST_TID_综合成果报告.docx",
+      "sha256": "2eab7f8deb72c261131a2b8638facd0a4e900188f5f25b080b82485686fb5bc6",
+      "size_bytes": 11456721
+    },
+    {
+      "path": "ST_TID_综合成果报告.pdf",
+      "sha256": "ca6d19652b422c670b5b0e48d708dce911cfa2e53851814493a61136286e9519",
+      "size_bytes": 2185415
+    },
+    {
+      "path": "qa_report.md",
+      "sha256": "8c8160bc249aee467ccb4ce3a416b60c9ef32fb2e5153df1a045c44d9b70051e",
+      "size_bytes": 4132
+    },
+    {
+      "path": "build_report.py",
+      "sha256": "0a5c3d3b1d315ebe7b52c4202ec98c9598bf4382d4b0f2eff2c9cf14379bfc6f",
+      "size_bytes": 41730
+    },
+    {
+      "path": "build_docx.js",
+      "sha256": "d75756d7e4a9aa0386155bab59ae10dcb0df7e1b21f67aa822b75906af90343f",
+      "size_bytes": 11494
+    },
+    {
+      "path": "export_pdf.ps1",
+      "sha256": "0957651457a358ae21a35b8e046ff766e717363c26b01331707841288ceeaabe",
+      "size_bytes": 920
+    },
+    {
+      "path": "build_all.ps1",
+      "sha256": "bbefec14fde85609d339c29cb4bcd68c6dd433d4ae150389133646cd8e3f6c28",
+      "size_bytes": 730
+    },
+    {
+      "path": "make_contact_sheet.py",
+      "sha256": "fe92d5aa7cc0241fbdacdc58f6f9925fbe9910b00383026c783ee0586af1af5e",
+      "size_bytes": 1077
+    },
+    {
+      "path": "finalize_qa.py",
+      "sha256": "756ddaf917091edffbfff5b6c22fae02020f908420c983fb0d8bb7ecb9640d48",
+      "size_bytes": 10792
+    },
+    {
+      "path": "qa_previews\\contact_sheet_01.jpg",
+      "sha256": "2abec53912b435a502cd0c9224a4c75b0ca41ca3545f27fb8c8ef9709fd7cf52",
+      "size_bytes": 21765
+    },
+    {
+      "path": "qa_previews\\contact_sheet_02.jpg",
+      "sha256": "b944b558953e3d72278d639415b5cdf0059543ad7c1ccb6afda4cc03c5803788",
+      "size_bytes": 20854
+    },
+    {
+      "path": "qa_previews\\contact_sheet_03.jpg",
+      "sha256": "8eb3ac4cef4873682872a16fc7e67934374218ed9b181ad945078d96a82801b2",
+      "size_bytes": 16944
+    },
+    {
+      "path": "qa_previews\\page06_thumb.jpg",
+      "sha256": "f82dffde55ed62207e3d6040b67129fc963836ddfa4e1177742c87027bb468d9",
+      "size_bytes": 11202
+    }
+  ],
+  "qa": {
+    "status": "PASS",
+    "pdf_pages": 43,
+    "page_size": "595.32 x 841.92 pts (A4)",
+    "rendered_pages": 43,
+    "contact_sheets": 3,
+    "prohibited_assertions_zero": true,
+    "source_asset_hashes_match": true,
+    "immutable_gzp_match": true
+  }
+}

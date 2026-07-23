@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "reserved_cores": [0],
+  "max_managed_slots": 4,
+  "lease_root": "/home/tcad/.cache/trench-tid-sdevice-core-leases",
+  "lock_timeout_seconds": 20,
+  "unmanaged_process_policy": "exclude_affinity",
+  "source": "E:/VDMOS_TID_Research/config/sentaurus-core-policy.json"
+}

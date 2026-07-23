@@ -1,0 +1,79 @@
+{
+  "devices": {
+    "S1": {
+      "delta_vt_60_v": -6.088,
+      "gm_change_60_pct": -59.1,
+      "ss_60_mv_dec": 328.8,
+      "id30_change_60_pct": 1749.3,
+      "v_at_1ua_60_v": 36.0
+    },
+    "S2": {
+      "delta_vt_60_v": -6.172,
+      "gm_change_60_pct": -59.2,
+      "ss_60_mv_dec": 288.3,
+      "id30_change_60_pct": 2874.4,
+      "v_at_1ua_60_v": 35.0
+    },
+    "S3": {
+      "delta_vt_60_v": -6.099,
+      "gm_change_60_pct": -62.5,
+      "ss_60_mv_dec": 348.7,
+      "id30_change_60_pct": 897.1,
+      "v_at_1ua_60_v": 35.0
+    },
+    "T1": {
+      "delta_vt_60_v": -10.339,
+      "gm_change_60_pct": -56.6,
+      "ss_60_mv_dec": 1698.3,
+      "id30_change_60_pct": 72.7,
+      "v_at_1ua_60_v": 108.0
+    },
+    "T2": {
+      "delta_vt_60_v": -9.885,
+      "gm_change_60_pct": -64.4,
+      "ss_60_mv_dec": 1690.1,
+      "id30_change_60_pct": 58.9,
+      "v_at_1ua_60_v": 109.0
+    },
+    "T3": {
+      "delta_vt_60_v": -9.682,
+      "gm_change_60_pct": -62.7,
+      "ss_60_mv_dec": 1633.4,
+      "id30_change_60_pct": 48.9,
+      "v_at_1ua_60_v": 107.0
+    }
+  },
+  "groups": {
+    "S": {
+      "delta_vt_60_mean_v": -6.12,
+      "delta_vt_60_std_v": 0.045,
+      "gm_change_60_mean_pct": -60.25,
+      "gm_change_60_std_pct": 1.96,
+      "ss_0_mean": 188.3,
+      "ss_60_mean": 321.9,
+      "id30_0_mean_a": 8.66105983228966e-10,
+      "id30_60_mean_a": 1.5180321592348865e-08,
+      "id30_change_60_mean_pct": 1840.3,
+      "v_at_1ua_0_mean_v": 106.3,
+      "v_at_1ua_60_mean_v": 35.3
+    },
+    "T": {
+      "delta_vt_60_mean_v": -9.969,
+      "delta_vt_60_std_v": 0.337,
+      "gm_change_60_mean_pct": -61.21,
+      "gm_change_60_std_pct": 4.1,
+      "ss_0_mean": 225.4,
+      "ss_60_mean": 1674.0,
+      "id30_0_mean_a": 1.2186269586026798e-10,
+      "id30_60_mean_a": 1.9503384092918927e-10,
+      "id30_change_60_mean_pct": 60.2,
+      "v_at_1ua_0_mean_v": 92.7,
+      "v_at_1ua_60_mean_v": 108.0
+    }
+  },
+  "recovery": {
+    "paired_traces": 13,
+    "reduction_min_pct": 70.65,
+    "reduction_max_pct": 96.19
+  }
+}

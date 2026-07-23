@@ -1,0 +1,9 @@
+{
+  "name": "S_T_VDMOS_TID_答辩完整版",
+  "template_path": "base_template.pptx",
+  "content_layout_catalog_path": "content_layout_catalog.json",
+  "primary_color_hex": "4472C4",
+  "text_color_light": "FFFFFF",
+  "text_color_dark": "333333",
+  "default_font_size_pt": 16
+}

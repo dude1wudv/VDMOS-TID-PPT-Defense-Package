@@ -1,0 +1,40 @@
+{
+  "status": "PARTIAL_PASS_SS_NOT_ELIGIBLE_FOR_6_OF_7_SIMULATION_CURVES",
+  "formal_valid": false,
+  "classification": "DATA_ANALYSIS_AND_FIGURE_MATERIAL_ONLY",
+  "seven_doses_complete": true,
+  "dose_labels": [0, 10, 20, 30, 40, 50, 60],
+  "source_nodes": [3, 5, 6, 13, 77, 80, 83],
+  "source_curve_points": [52, 51, 52, 52, 52, 52, 52],
+  "vds_0p1_v_all": true,
+  "source_curve_values_finite": true,
+  "vgs_order_preserved_by_svisual_sort": true,
+  "metric_algorithm": {
+    "savgol_window": 11,
+    "savgol_order": 2,
+    "vth": "maximum absolute Savitzky-Golay gm tangent intercept",
+    "ss_window_points": 21,
+    "ss_min_r2": 0.98
+  },
+  "simulation_vth_and_gm_finite_all_7": true,
+  "simulation_ss_eligible_count": 1,
+  "simulation_ss_not_eligible_doses_krad_si": [0, 10, 30, 40, 50, 60],
+  "figure_line_rule": "Transfer figures use one consistent color per dose: simulation solid, experiment dashed. Metric figures use simulation solid and experiment dashed with experimental standard-deviation error bars.",
+  "report_figures": {
+    "transfer_linear": ["transfer_linear.png", "transfer_linear.pdf", "transfer_linear.svg"],
+    "transfer_semilog": ["transfer_semilog.png", "transfer_semilog.pdf", "transfer_semilog.svg"],
+    "vth": ["vth_vs_dose.png", "vth_vs_dose.pdf", "vth_vs_dose.svg"],
+    "ss": ["ss_vs_dose.png", "ss_vs_dose.pdf", "ss_vs_dose.svg"],
+    "gm": ["gm_vs_dose.png", "gm_vs_dose.pdf", "gm_vs_dose.svg"]
+  },
+  "png_dpi": 350,
+  "svisual_clean_export": "figures/S_transfer_0to60K_svisual_clean.png",
+  "svisual_gui_screenshot": "local_runtime/tcad_runs/sgt_s_gapfill_20260722T034347Z/manual_gui_editable_20260723T/svisual_transfer_assets/screenshots/S_transfer_0to60K_svisual_gui.png",
+  "source_gzp_sha256": "5524b0f5dd661a059173b403c0f469dc24f16da9bab0e3f7c7ac1319761a5b4b",
+  "source_gzp_unchanged": true,
+  "limitations": [
+    "The dose mapping is user-provided GUI-order labeling, not independently inferred from gtree metadata.",
+    "GUI-manual SDevice runs have no repository atomic-lease or affinity evidence; formal_valid=false and these are not formal compliant curves.",
+    "With the mandated 21-point / R2>=0.98 SS algorithm, six simulated curves have no eligible SS window; no SS value or comparison difference was fabricated."
+  ]
+}
