@@ -1,0 +1,555 @@
+{
+  "final_pages": 74,
+  "preserved_from_original": [
+    1,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    48,
+    50,
+    51,
+    67
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "title": "Trench 与 SGT VDMOS 总剂量辐照效应对比及 TCAD 建模验证",
+      "source": "原讲稿版模板；项目实验与仿真证据链",
+      "layout": "cover",
+      "notes": true
+    },
+    {
+      "page": 2,
+      "title": "高辐射环境会持续改变功率 MOS 器件的关键电学参数",
+      "source": "Liu et al., 2008；Wang et al., 2023/2024",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 3,
+      "title": "TCAD 将长周期辐照实验转化为可迭代、可解释的模型研究",
+      "source": "六器件七剂量实验；T/S 七剂量仿真",
+      "layout": "image_left",
+      "notes": true
+    },
+    {
+      "page": 4,
+      "title": "已有研究建立 TID 机制框架，但结构对比仍需具体样品证据",
+      "source": "Liu et al., 2008；Wang et al., 2023/2024",
+      "layout": "cards",
+      "notes": true
+    },
+    {
+      "page": 5,
+      "title": "三篇 TID 文献分别支撑机制、结构比较与 TCAD 分析",
+      "source": "Liu et al., IEEE TNS, 2008；Wang et al., 2023/2024",
+      "layout": "cards",
+      "notes": true
+    },
+    {
+      "page": 6,
+      "title": "研究闭环从真实测量延伸到两类器件的可追溯 TCAD 验证",
+      "source": "项目研究闭环与正式交付证据链",
+      "layout": "full_image",
+      "notes": true
+    },
+    {
+      "page": 7,
+      "title": "六只器件在七个剂量点进行同器件纵向跟踪",
+      "source": "ST_TID_综合成果报告；实验记录",
+      "layout": "timeline",
+      "notes": true
+    },
+    {
+      "page": 8,
+      "title": "Trench 与 SGT 通过不同沟槽电极和氧化层布局控制内部电场",
+      "source": "项目结构图；Wang et al., 2023/2024",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 9,
+      "title": "统一算法从原始曲线重新提取 Vth、gm、SS 与输出指标",
+      "source": "analysis_config.json；数据质量报告",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 10,
+      "title": "六只器件共同显示阈值负移与开启能力下降",
+      "source": "summary_facts.json；transfer_summary.csv",
+      "layout": "full_image",
+      "notes": true
+    },
+    {
+      "page": 11,
+      "title": "S1：七剂量转移曲线显示稳定负移与开启区斜率下降",
+      "source": "summary_facts.json；S1 主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 12,
+      "title": "S2：阈值负移与 S1 接近，组内一致性较好",
+      "source": "summary_facts.json；S2 主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 13,
+      "title": "S3：跨导下降略大，但阈值负移仍与 S 组高度一致",
+      "source": "summary_facts.json；S3 主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 14,
+      "title": "T1：阈值负移超过 10 V，亚阈区明显展开",
+      "source": "summary_facts.json；T1 主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 15,
+      "title": "T2：跨导下降最大，阈值与 SS 保持 T 组共同趋势",
+      "source": "summary_facts.json；T2 主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 16,
+      "title": "T3：三只 T 器件均进入约 1.6–1.7 V/dec 的高 SS 区间",
+      "source": "summary_facts.json；T3 主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 17,
+      "title": "两组 gm 均下降约 60%，但 Vth 与 SS 的退化幅度不同",
+      "source": "transfer_summary.csv；transfer_parameters.csv",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 18,
+      "title": "S 组转移曲线随剂量稳定负移，三只器件保持高度一致",
+      "source": "实验统计与统一提参结果",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 19,
+      "title": "S 组七剂量指标给出连续、可复核的退化轨迹",
+      "source": "ST_TID_综合成果报告，表 2-1",
+      "layout": "trend",
+      "notes": true
+    },
+    {
+      "page": 20,
+      "title": "T 组阈值负移接近 10 V，亚阈区在中高剂量快速恶化",
+      "source": "实验统计与统一提参结果",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 21,
+      "title": "T 组 Vth 与 SS 的退化快于输出漏电变化",
+      "source": "ST_TID_综合成果报告，表 3-1",
+      "layout": "trend",
+      "notes": true
+    },
+    {
+      "page": 22,
+      "title": "两组 gm 均下降约 60%，开启能力衰减是共同退化维度",
+      "source": "实验统计",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 23,
+      "title": "T 组 SS 增量约为 S 组的 10.8 倍，亚阈区差异最显著",
+      "source": "实验统计；统一 SS 滑窗算法",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 24,
+      "title": "SGT 阈值负移更小，Trench 在 20 krad 后平均 Vth 已转为负值",
+      "source": "实验统计",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 25,
+      "title": "本批结果提示 SGT 的电极与氧化层布局提高了转移特性稳定性",
+      "source": "实验结果；Wang et al., 2023/2024",
+      "layout": "fact_hypothesis",
+      "notes": true
+    },
+    {
+      "page": 26,
+      "title": "输出曲线需区分低压漏电、高压代理指标与仪器限流",
+      "source": "实验指标定义",
+      "layout": "diagram",
+      "notes": true
+    },
+    {
+      "page": 27,
+      "title": "六只器件的输出响应呈现明显组间差异与非单调细节",
+      "source": "六器件七剂量首扫输出",
+      "layout": "full_image",
+      "notes": true
+    },
+    {
+      "page": 28,
+      "title": "S1：60 krad 的 30 V 漏电增幅为 1749%，高压代理降至 36 V",
+      "source": "S1 输出主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 29,
+      "title": "S2：三只 S 器件中 30 V 漏电相对增幅最大",
+      "source": "S2 输出主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 30,
+      "title": "S3：相对增幅较低，但高压代理同样降至约 35 V",
+      "source": "S3 输出主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 31,
+      "title": "T1：低压漏电仅小幅增加，高压代理保持在 108 V",
+      "source": "T1 输出主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 32,
+      "title": "T2：30 V 漏电增幅为 58.9%，高压代理为 109 V",
+      "source": "T2 输出主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 33,
+      "title": "T3：三只 T 器件的 60 krad 输出指标集中在同一区间",
+      "source": "T3 输出主扫描",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 34,
+      "title": "S 组首扫尖峰在复扫中消失，表现出扫描历史相关响应",
+      "source": "13 条 S 组首扫—复扫配对",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 35,
+      "title": "S/T 输出指标给出相反的高压代理变化方向",
+      "source": "output_summary.csv；output_parameters.csv",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 36,
+      "title": "13 条 S 组复扫的 30 V 漏电全部降低 70.65%–96.19%",
+      "source": "recovery_parameters.csv；相关恢复文献",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 37,
+      "title": "S3 60 krad 的恢复覆盖较宽电压范围，而非单点变化",
+      "source": "S3 60 krad 首扫—复扫配对",
+      "layout": "legacy",
+      "notes": true
+    },
+    {
+      "page": 38,
+      "title": "高场扫描可能通过陷阱电荷释放与重分布形成表观恢复",
+      "source": "Oldham & McLean；Schwank；Lelis；Gao",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 39,
+      "title": "SGT 与 Trench 的输出响应方向相反，结构敏感区并不相同",
+      "source": "实验输出统计；固定 VGS=−20 V",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 40,
+      "title": "SGT 的厚氧化层与屏蔽电极可能增强辐照电荷对漂移区电场的影响",
+      "source": "实验结果；Wang et al., 2023/2024",
+      "layout": "fact_hypothesis",
+      "notes": true
+    },
+    {
+      "page": 41,
+      "title": "T 器件结构、网格和基础参数固定，剂量只改变陷阱参数",
+      "source": "tid_campaign.json；T 仿真技术报告",
+      "layout": "image_left",
+      "notes": true
+    },
+    {
+      "page": 42,
+      "title": "低参数 Not/Nit 剂量函数将七个剂量点映射到同一模型",
+      "source": "tid_campaign.json；T 仿真报告",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 43,
+      "title": "Not 主导阈值静电位移，Nit 用于约束亚阈区与栅控退化",
+      "source": "MOS TID 通用机制；T 参数扫描",
+      "layout": "diagram",
+      "notes": true
+    },
+    {
+      "page": 44,
+      "title": "T 组七剂量转移仿真复现阈值负移主趋势",
+      "source": "真实 VM SVisual；transfer_d00–d60.csv",
+      "layout": "full_image",
+      "notes": true
+    },
+    {
+      "page": 45,
+      "title": "T 模型对 ΔVth 与 gm 达到稳定的范围内定量一致性",
+      "source": "simulation_metrics.csv；fit_error_table.csv",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 46,
+      "title": "SS 残差揭示均匀陷阱模型无法同时解释全部退化",
+      "source": "T 仿真报告；A–I 参数扫描",
+      "layout": "tradeoff",
+      "notes": true
+    },
+    {
+      "page": 47,
+      "title": "无雪崩预击穿输出只能用于 30 V 内的限定趋势比较",
+      "source": "current_output_provenance.json",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 48,
+      "title": "实验与 SDevice 曲线叠加保留离散、缺段和异常",
+      "source": "origin_overlay_manifest.json；origin_qa.json",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 49,
+      "title": "高压求解在约 30 V 后显著变慢，失败尝试构成模型边界",
+      "source": "高场失败证据与运行记录",
+      "layout": "image_left",
+      "notes": true
+    },
+    {
+      "page": 50,
+      "title": "IIC 是条件化高场判据，不能替代 V@1µA 或标准 BV",
+      "source": "highfield_closure.json；T 仿真报告",
+      "layout": "status",
+      "notes": true
+    },
+    {
+      "page": 51,
+      "title": "终态电场图支持空间形态比较，但不能单独证明 BV 不变",
+      "source": "真实 VM SVisual；release_manifest.json",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 52,
+      "title": "T 输出实验与仿真高场形态只形成定性对应",
+      "source": "实验统计；IIC 与电场证据",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 53,
+      "title": "T 仿真结论同时包含拟合成果、模型残差和数值边界",
+      "source": "T_device_TID_simulation_report.md；交付 manifest",
+      "layout": "supported_limited",
+      "notes": true
+    },
+    {
+      "page": 54,
+      "title": "S 型七剂量转移曲线已完成实验—仿真同图比较",
+      "source": "S 仿真七剂量比较图与映射文件",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 55,
+      "title": "S 模型能描述 gm 下降，但高剂量 Vth 负移仍明显不足",
+      "source": "metrics_comparison.csv",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 56,
+      "title": "严格 SS 算法下仅 20 krad 仿真曲线具备有效比较窗口",
+      "source": "S仿真 qa.json；metrics_comparison.csv",
+      "layout": "image_right",
+      "notes": true
+    },
+    {
+      "page": 57,
+      "title": "S 型低漏压终点的局部电场峰值仅变化约 0.18%",
+      "source": "peak_metrics.csv；svisual_manifest.json",
+      "layout": "two_images",
+      "notes": true
+    },
+    {
+      "page": 58,
+      "title": "S 模型应按基线、剂量映射和亚阈扫描的顺序迭代",
+      "source": "S Vth/gm/SS 比较与 QA",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 59,
+      "title": "S 型仿真已形成真实证据链，但模型验证仍处于迭代阶段",
+      "source": "S仿真 manifest、mapping 与 QA",
+      "layout": "supported_limited",
+      "notes": true
+    },
+    {
+      "page": 60,
+      "title": "本研究形成器件对比、恢复现象、双模型与 AI 流程四类创新",
+      "source": "本项目实验、仿真与监督工程材料",
+      "layout": "cards",
+      "notes": true
+    },
+    {
+      "page": 61,
+      "title": "TCAD 的主要瓶颈是反复收敛、比较与证据筛选",
+      "source": "T/S 参数扫描、失败证据与监督规范",
+      "layout": "diagram",
+      "notes": true
+    },
+    {
+      "page": 62,
+      "title": "AI 协作采用“探索—审批—执行—监控—复核”的受监督状态机",
+      "source": "监督状态机；人工审批与派发规则",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 63,
+      "title": "单核原子租约让多任务并发保持可控且失败关闭",
+      "source": "sentaurus-core-policy.json；sdevice_core_lease.sh",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 64,
+      "title": "异步监控只报告状态，不自动重试或修改参数",
+      "source": "监控脚本；监督状态机",
+      "layout": "timeline",
+      "notes": true
+    },
+    {
+      "page": 65,
+      "title": "AI 与研究者职责分离，避免自动化越过物理与证据边界",
+      "source": "人工审批与证据复核规则",
+      "layout": "two_columns",
+      "notes": true
+    },
+    {
+      "page": 66,
+      "title": "失败、部分结果和异常点均保留为可追溯证据",
+      "source": "监督证据规则；T/S QA",
+      "layout": "cards",
+      "notes": true
+    },
+    {
+      "page": 67,
+      "title": "自动化流程已管理 22,627 个原始点和多轮仿真证据",
+      "source": "数据质量报告；versioned campaigns",
+      "layout": "kpi",
+      "notes": true
+    },
+    {
+      "page": 68,
+      "title": "真实虚拟机工程与 AI 操作记录展示了持续迭代过程",
+      "source": "用户提供的真实操作截图",
+      "layout": "three_images",
+      "notes": true
+    },
+    {
+      "page": 69,
+      "title": "四项创新将实验现象推进为可解释、可追溯的模型成果",
+      "source": "前述实验、仿真与流程证据",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 70,
+      "title": "两类器件均发生强烈转移退化，但输出响应方向不同",
+      "source": "实验统计",
+      "layout": "matrix",
+      "notes": true
+    },
+    {
+      "page": 71,
+      "title": "T 模型实现定量标定，S 模型完成阶段性验证与问题定位",
+      "source": "T/S 仿真证据与 QA",
+      "layout": "two_columns",
+      "notes": true
+    },
+    {
+      "page": 72,
+      "title": "关键证据边界集中保留，避免成果展示产生误解",
+      "source": "全套实验、仿真与监督证据",
+      "layout": "cards",
+      "notes": true
+    },
+    {
+      "page": 73,
+      "title": "下一步工作将围绕 S 模型、高压验证与恢复机制展开",
+      "source": "基于当前 T/S 模型边界",
+      "layout": "process",
+      "notes": true
+    },
+    {
+      "page": 74,
+      "title": "谢谢各位老师，请批评指正",
+      "source": "本项目答辩材料",
+      "layout": "closing",
+      "notes": true
+    }
+  ]
+}

@@ -1,56 +1,64 @@
-﻿页码,素材相对路径,素材类型,是否存在
-2,02_背景与结构/ChatGPT Image 2026年7月23日 15_43_15.png,PNG,是
-3,02_背景与结构/ChatGPT Image 2026年7月23日 15_45_34.png,PNG,是
-6,02_背景与结构/route.png,PNG,是
-7,02_背景与结构/site_irradiator.jpg,JPG,是
-8,02_背景与结构/T.png,PNG,是
-8,02_背景与结构/S.png,PNG,是
-10,03_实验结果/可编辑图表/transfer_six_device_gallery.png,PNG,是
-11,03_实验结果/可编辑图表/transfer_S1.png,PNG,是
-12,03_实验结果/可编辑图表/transfer_S2.png,PNG,是
-13,03_实验结果/可编辑图表/transfer_S3.png,PNG,是
-14,03_实验结果/可编辑图表/transfer_T1.png,PNG,是
-15,03_实验结果/可编辑图表/transfer_T2.png,PNG,是
-16,03_实验结果/可编辑图表/transfer_T3.png,PNG,是
-17,03_实验结果/可编辑图表/transfer_metrics_overview.png,PNG,是
-18,03_实验结果/transfer_semilog_S.png,PNG,是
-18,03_实验结果/transfer_linear_S.png,PNG,是
-20,03_实验结果/transfer_semilog_T.png,PNG,是
-20,03_实验结果/transfer_linear_T.png,PNG,是
-22,03_实验结果/gm_change.png,PNG,是
-23,03_实验结果/subthreshold_swing.png,PNG,是
-24,03_实验结果/threshold_shift.png,PNG,是
-24,03_实验结果/threshold_voltage.png,PNG,是
-27,03_实验结果/可编辑图表/output_six_device_gallery.png,PNG,是
-28,03_实验结果/可编辑图表/output_S1.png,PNG,是
-29,03_实验结果/可编辑图表/output_S2.png,PNG,是
-30,03_实验结果/可编辑图表/output_S3.png,PNG,是
-31,03_实验结果/可编辑图表/output_T1.png,PNG,是
-32,03_实验结果/可编辑图表/output_T2.png,PNG,是
-33,03_实验结果/可编辑图表/output_T3.png,PNG,是
-35,03_实验结果/可编辑图表/output_metrics_overview.png,PNG,是
-34,03_实验结果/output_semilog_S.png,PNG,是
-36,03_实验结果/可编辑图表/recovery_13_pairs.png,PNG,是
-37,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_27.png,PNG,是
-39,03_实验结果/output_semilog_S.png,PNG,是
-39,03_实验结果/output_semilog_T.png,PNG,是
-41,04_T器件仿真/simulation/structure_mesh.png,PNG,是
-42,03_实验结果/可编辑图表/dose_trap_mapping.png,PNG,是
-44,04_T器件仿真/comparison/comparison_transfer_semilog_T.png,PNG,是
-45,03_实验结果/可编辑图表/t_simulation_metric_compare.png,PNG,是
-47,04_T器件仿真/comparison/comparison_output_semilog_T.png,PNG,是
-48,04_T器件仿真/comparison/comparison_id30_T.png,PNG,是
-49,04_T器件仿真/comparison/comparison_high_voltage_context_T.png,PNG,是
-51,04_T器件仿真/simulation/electric_field_0krad.png,PNG,是
-51,04_T器件仿真/simulation/electric_field_60krad.png,PNG,是
-54,05_S器件仿真/七剂量转移/figures/transfer_semilog.png,PNG,是
-54,05_S器件仿真/七剂量转移/figures/transfer_linear.png,PNG,是
-55,05_S器件仿真/七剂量转移/figures/vth_vs_dose.png,PNG,是
-55,05_S器件仿真/七剂量转移/figures/gm_vs_dose.png,PNG,是
-56,05_S器件仿真/七剂量转移/figures/ss_vs_dose.png,PNG,是
-57,05_S器件仿真/低压电场/figures/field_x_cutline_overlay.png,PNG,是
-57,05_S器件仿真/低压电场/figures/field_peak_vs_dose.png,PNG,是
-59,05_S器件仿真/七剂量转移/figures/svisual_transfer_semilog_0to60K_clean.png,PNG,是
-68,06_AI辅助流程/AI操作中图像1.png,PNG,是
-68,06_AI辅助流程/AI操作中图2.png,PNG,是
-68,06_AI辅助流程/虚拟机工程.png,PNG,是
+﻿页码,页面标题,相对路径,用途/布局,状态,存在,SHA-256
+2,高辐射环境会持续改变功率 MOS 器件的关键电学参数,02_背景与结构/ChatGPT Image 2026年7月23日 15_43_15.png,image_right,主选,True,b9397cdf014610e97f78cf33ace71b7aea4d2fbcb5073a518507bb0667cdd223
+3,TCAD 将长周期辐照实验转化为可迭代、可解释的模型研究,02_背景与结构/ChatGPT Image 2026年7月23日 15_45_34.png,image_left,主选,True,af130c022ba0d8787430eb220f1777bf194f4811595372c8e4b7ec46620cdc04
+6,研究闭环从真实测量延伸到两类器件的可追溯 TCAD 验证,02_背景与结构/route.png,full_image,主选,True,d998c537e1f2460641aaa0e5375ce800e833c710bcc2060b34ad6cdc6136e5cc
+7,六只器件在七个剂量点进行同器件纵向跟踪,02_背景与结构/site_irradiator.jpg,timeline,主选,True,29156f31d8a94eda2e7729ccaf8cd566cf97fa5a1dd470480ed7055dbb13110a
+7,六只器件在七个剂量点进行同器件纵向跟踪,02_背景与结构/site_room.jpg,timeline,主选,True,f9acecc8cfc97f263b4cb2c2c0ccca4e4738da64b7dd4d25d7ce810727935c8e
+7,六只器件在七个剂量点进行同器件纵向跟踪,02_背景与结构/site_source.jpg,timeline,主选,True,610ff9274acf924e11246cbb31dcdccc4130db879741aa4ae1d83800379f6359
+8,Trench 与 SGT 通过不同沟槽电极和氧化层布局控制内部电场,02_背景与结构/T.png,two_images,主选,True,376de3cacee15909f16b0d46f7545400aef9f093475368246a01cbd92a99d66d
+8,Trench 与 SGT 通过不同沟槽电极和氧化层布局控制内部电场,02_背景与结构/S.png,two_images,主选,True,d0c9c79bad2edf7cbd744c8f821920dc25d61fcef862a8c2e015177b8f8a4aee
+10,六只器件共同显示阈值负移与开启能力下降,03_实验结果/可编辑图表/transfer_six_device_gallery.png,full_image,主选,True,76ada515f6ba1423a1a6d78aebf0188ece06b4e50cb9acb4a1c4f43fdc08b709
+11,S1：七剂量转移曲线显示稳定负移与开启区斜率下降,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_10.png,legacy,主选,True,ab8f029d81cc13407351617185f8d21dcf0b6cafcca5a62da629de0051efbab1
+12,S2：阈值负移与 S1 接近，组内一致性较好,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_11.png,legacy,主选,True,3ba3b6055f27b0cee9d02c8a3cc24df46e0a2b8b11cee3cf5f47902841f48d72
+13,S3：跨导下降略大，但阈值负移仍与 S 组高度一致,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_12.png,legacy,主选,True,fd9f315da35e1a6b0e391538cf09f48029ecd2ef0f4fee2f9913d87f2e6b6880
+14,T1：阈值负移超过 10 V，亚阈区明显展开,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_13.png,legacy,主选,True,7b3364d1799071700b47b0919a30c3f8191992d772baf3514603ed0d0b6373f0
+15,T2：跨导下降最大，阈值与 SS 保持 T 组共同趋势,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_14.png,legacy,主选,True,6123e26bc6ef2f07fc8bc09c1e386ce081e4ff71fcc1d661e911fc4ebcf7aa64
+16,T3：三只 T 器件均进入约 1.6–1.7 V/dec 的高 SS 区间,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_15.png,legacy,主选,True,e1eec9b5f0ae88547a564ebd392c1278af2dcb82b8831f49b135700b124a6f2a
+17,两组 gm 均下降约 60%，但 Vth 与 SS 的退化幅度不同,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_16.png,legacy,主选,True,7c2d5ea07b6a583124481d9eec154f125b33fbd3c61847ce7fb37999b5d880d3
+18,S 组转移曲线随剂量稳定负移，三只器件保持高度一致,03_实验结果/transfer_semilog_S.png,two_images,主选,True,6fe00d180d7655e7b9f854d56916b29d6f0d44db627982f68f571aa264d20654
+18,S 组转移曲线随剂量稳定负移，三只器件保持高度一致,03_实验结果/transfer_linear_S.png,two_images,主选,True,4c0ad0c37ad35b35c4d1284842fa6480c98df7b387893c74bcced9f7f0fd6082
+20,T 组阈值负移接近 10 V，亚阈区在中高剂量快速恶化,03_实验结果/transfer_semilog_T.png,two_images,主选,True,02ff90011bbfb19e7204c71cad56e35aaa9885d89e2cb51007f0aaae660bfaa9
+20,T 组阈值负移接近 10 V，亚阈区在中高剂量快速恶化,03_实验结果/transfer_linear_T.png,two_images,主选,True,77569daf922408e71f04d6e5c1841dc556a1c97dbff372c3d44df839a873fb4d
+22,两组 gm 均下降约 60%，开启能力衰减是共同退化维度,03_实验结果/gm_change.png,image_right,主选,True,98e74e3f7b08475af3d3ef83b64e24f9545e046f876c72a49931567bc4e9d9cb
+23,T 组 SS 增量约为 S 组的 10.8 倍，亚阈区差异最显著,03_实验结果/subthreshold_swing.png,image_right,主选,True,b9f3e50cf1c75143d615ecfcfcec58fed8204526800795789a7f27ec4bbaa3da
+24,SGT 阈值负移更小，Trench 在 20 krad 后平均 Vth 已转为负值,03_实验结果/threshold_shift.png,two_images,主选,True,c21f61f7abc14a715b1007c91e8f8d88a0b9d98d11c4ed0d905b14294b904967
+24,SGT 阈值负移更小，Trench 在 20 krad 后平均 Vth 已转为负值,03_实验结果/threshold_voltage.png,two_images,主选,True,b2b7dc1090ba0aeef84e74810ac657d706377dd9f2817c080416c17236176953
+25,本批结果提示 SGT 的电极与氧化层布局提高了转移特性稳定性,02_背景与结构/T.png,fact_hypothesis,主选,True,376de3cacee15909f16b0d46f7545400aef9f093475368246a01cbd92a99d66d
+25,本批结果提示 SGT 的电极与氧化层布局提高了转移特性稳定性,02_背景与结构/S.png,fact_hypothesis,主选,True,d0c9c79bad2edf7cbd744c8f821920dc25d61fcef862a8c2e015177b8f8a4aee
+27,六只器件的输出响应呈现明显组间差异与非单调细节,03_实验结果/可编辑图表/output_six_device_gallery.png,full_image,主选,True,6685beaf9d4d3f9ec13c737fd827a1c29742e4d2e3f550eaebf9ced637e9335c
+28,S1：60 krad 的 30 V 漏电增幅为 1749%，高压代理降至 36 V,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_19.png,legacy,主选,True,1e032192fecc93d7229de78e3f31e62f08fef36e075bc3a814547b67bf03342d
+29,S2：三只 S 器件中 30 V 漏电相对增幅最大,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_20.png,legacy,主选,True,49debd8c89f8c040436d443b28c601f26727e0daae67d7eba8f3e9540d6d8405
+30,S3：相对增幅较低，但高压代理同样降至约 35 V,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_21.png,legacy,主选,True,29c25f642c374eff1509be777fce3d0aea9cb192ccc9951151b2552a71a589a3
+31,T1：低压漏电仅小幅增加，高压代理保持在 108 V,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_22.png,legacy,主选,True,3b780f7abf8cef869b95702dc198ecf4675a8bcdd96be09b7f167c72f4cf1aa5
+32,T2：30 V 漏电增幅为 58.9%，高压代理为 109 V,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_23.png,legacy,主选,True,c4e7c728e9c5c6d3ae4665bdc1131853de6d47b4b7a6098efd72132ba0182fe2
+33,T3：三只 T 器件的 60 krad 输出指标集中在同一区间,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_24.png,legacy,主选,True,b2a5fbce6481c9907ba6327d473700eade0e24e00b374268d339f08401f962b2
+34,S 组首扫尖峰在复扫中消失，表现出扫描历史相关响应,03_实验结果/output_semilog_S.png,image_right,主选,True,4cd8f1dfee27b87b0d17eeb8f0387e1cad0e7ec54d627eb8a46e073aff4c54a8
+35,S/T 输出指标给出相反的高压代理变化方向,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_25.png,legacy,主选,True,6bc49f75b2a31ca139e26f22b51cf41ecac15f6dc0e9606acbf34a01f48b1569
+36,13 条 S 组复扫的 30 V 漏电全部降低 70.65%–96.19%,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_26.png,legacy,主选,True,e26e6837c9833eb699728f3ab8eb9e13e5faadae506ccdf50083c8256af2d221
+37,S3 60 krad 的恢复覆盖较宽电压范围，而非单点变化,03_实验结果/S_T_VDMOS_TID_完整成果展示版_讲稿版_27.png,legacy,主选,True,63af9e6f7b36dacab5d10ad25185b4faaf8c30d9a34adabcf553c3c1f3440e64
+39,SGT 与 Trench 的输出响应方向相反，结构敏感区并不相同,03_实验结果/output_semilog_S.png,two_images,主选,True,4cd8f1dfee27b87b0d17eeb8f0387e1cad0e7ec54d627eb8a46e073aff4c54a8
+39,SGT 与 Trench 的输出响应方向相反，结构敏感区并不相同,03_实验结果/output_semilog_T.png,two_images,主选,True,f4c418a8353a29218265333247c3237f20b375edb00fd8592e6c30728d4c5317
+40,SGT 的厚氧化层与屏蔽电极可能增强辐照电荷对漂移区电场的影响,02_背景与结构/S.png,fact_hypothesis,主选,True,d0c9c79bad2edf7cbd744c8f821920dc25d61fcef862a8c2e015177b8f8a4aee
+40,SGT 的厚氧化层与屏蔽电极可能增强辐照电荷对漂移区电场的影响,02_背景与结构/T.png,fact_hypothesis,主选,True,376de3cacee15909f16b0d46f7545400aef9f093475368246a01cbd92a99d66d
+41,T 器件结构、网格和基础参数固定，剂量只改变陷阱参数,04_T器件仿真/simulation/structure_mesh.png,image_left,主选,True,a61acb7b154516f381b70b56ee0e4df770b5f6154139114b48d8a1fbcc5691c5
+42,低参数 Not/Nit 剂量函数将七个剂量点映射到同一模型,04_T器件仿真/dose_trap_mapping.svg,image_right,主选,True,acd77655a09bd156787062e47f1ce13c3d14f63f481551951fd9110de38a0de8
+44,T 组七剂量转移仿真复现阈值负移主趋势,04_T器件仿真/comparison/comparison_transfer_semilog_T.png,full_image,主选,True,585c738d6f9a377b8d0dca53e0fc3a66514bca9b9e7fa98994d2f44834fa4e71
+45,T 模型对 ΔVth 与 gm 达到稳定的范围内定量一致性,04_T器件仿真/t_simulation_metric_compare.svg,image_right,主选,True,c5db7cbe0c0aebb22489d3b67055962ac4ac361b138e3db26ce576198615d4dc
+47,无雪崩预击穿输出只能用于 30 V 内的限定趋势比较,04_T器件仿真/comparison/comparison_output_semilog_T.png,image_right,主选,True,f0642d72ac5cedf8fb1799e26b8ef6c2e0fe2b5b7405907fa399dfbb6a94bd6b
+48,实验与 SDevice 曲线叠加保留离散、缺段和异常,04_T器件仿真/comparison/comparison_id30_T.png,image_right,主选,True,81ba9b78c6c58e6717671e392867cef96f6ef8cbaf7b9762592e2cc91d332677
+49,高压求解在约 30 V 后显著变慢，失败尝试构成模型边界,04_T器件仿真/comparison/comparison_high_voltage_context_T.png,image_left,主选,True,e028e7389e4ad0cc7515b0be998694d4b4b5948067fec9d3b6279c77f5013d38
+51,终态电场图支持空间形态比较，但不能单独证明 BV 不变,04_T器件仿真/simulation/electric_field_0krad.png,two_images,主选,True,c79a4812566bb327c4255d91320c6c2003dda2f9c301ac538ea4852ceb234f2a
+51,终态电场图支持空间形态比较，但不能单独证明 BV 不变,04_T器件仿真/simulation/electric_field_60krad.png,two_images,主选,True,0fb195488e3a47472a9f4dea11b412fb8acee1825666a65f9cab8b78c2d1387f
+52,T 输出实验与仿真高场形态只形成定性对应,03_实验结果/output_semilog_T.png,two_images,主选,True,f4c418a8353a29218265333247c3237f20b375edb00fd8592e6c30728d4c5317
+52,T 输出实验与仿真高场形态只形成定性对应,04_T器件仿真/simulation/electric_field_60krad.png,two_images,主选,True,0fb195488e3a47472a9f4dea11b412fb8acee1825666a65f9cab8b78c2d1387f
+54,S 型七剂量转移曲线已完成实验—仿真同图比较,05_S器件仿真/七剂量转移/figures/transfer_semilog.svg,two_images,主选,True,f39ac8a53e331e9990ca5e02eb5dc5454e64b11ed4ade4e212d12dc855f031b1
+54,S 型七剂量转移曲线已完成实验—仿真同图比较,05_S器件仿真/七剂量转移/figures/transfer_linear.svg,two_images,主选,True,bfa0318a77c3eaf0a905d751d5df6ad59032f809613d58b532c54c9f04c9e5ae
+55,S 模型能描述 gm 下降，但高剂量 Vth 负移仍明显不足,05_S器件仿真/七剂量转移/figures/vth_vs_dose.svg,two_images,主选,True,dc9dd23708a23af13472ca4bd704923f73397136691a2726365f6355dc6f7772
+55,S 模型能描述 gm 下降，但高剂量 Vth 负移仍明显不足,05_S器件仿真/七剂量转移/figures/gm_vs_dose.svg,two_images,主选,True,02c84235f76bb8d6405248f0e3a226d22834af60a3545584d82c813b08e2cea1
+56,严格 SS 算法下仅 20 krad 仿真曲线具备有效比较窗口,05_S器件仿真/七剂量转移/figures/ss_vs_dose.svg,image_right,主选,True,18ea6584ab2872548cbea65eb9d962512caefd83b9d1a1a12bd679ee80fa6b32
+57,S 型低漏压终点的局部电场峰值仅变化约 0.18%,05_S器件仿真/低压电场/figures/field_x_cutline_overlay.svg,two_images,主选,True,b78ee27fe26ddb44f603fb595eb132bcfa6888b13a9c9929fa56bf6fdbb6be32
+57,S 型低漏压终点的局部电场峰值仅变化约 0.18%,05_S器件仿真/低压电场/figures/field_peak_vs_dose.svg,two_images,主选,True,eac10c56212cf3058a17ad948c9d7d171c9af35274ab38165ea066f36dce7b15
+59,S 型仿真已形成真实证据链，但模型验证仍处于迭代阶段,05_S器件仿真/七剂量转移/figures/svisual_transfer_semilog_0to60K_clean.png,supported_limited,主选,True,e7900f01917ea50d6668e72b0eb75fb137c72779a55dfd9dc560f8432fa869ae
+68,真实虚拟机工程与 AI 操作记录展示了持续迭代过程,06_AI辅助流程/AI操作中图2.png,three_images,主选,True,6182bee398303221ff321f1ea13ae4a7162e0ccf83b829ba50a31291fe0b38cd
+68,真实虚拟机工程与 AI 操作记录展示了持续迭代过程,06_AI辅助流程/AI操作中图像1.png,three_images,主选,True,b086e8ed0ecfc799a23d3c4278165bc977b5bd24afa14c47b10352334984a32f
+68,真实虚拟机工程与 AI 操作记录展示了持续迭代过程,06_AI辅助流程/虚拟机工程.png,three_images,主选,True,07d5cc05a247a63a45cc3b455b0bf1dfdde8fae99fd3d73faec020a77e5c065e
